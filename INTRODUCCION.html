@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<body background="imagenes/fondocss.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto2</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/main.js"></script>
+</head>
+<body>
+    <table width="100%" border="0">
+        <tr><!--Encabezado-->
+            <td colspan="2" >
+                <img id="logo-image" src="imagenes/css.gif"  width="350" heigth="250"  align="left"> <em><strong><h1><center> CSS</center></h1></strong></em>
+            </tr>
+               <tr>
+               <td rowspan="3" width="20%"><!--menu-->
+                <ul>
+                    <li><a href="index.html">INICIO...</a></li>
+                    <li><a href="NOSOTROS.html">SOBRE NOSOTROS...</a></li>
+                    <li><a href="INTRODUCCION.html">INTRODUCCION...</a></li>
+                    <li><a href="galeria.html">GALERIA...</a></li>
+                </ul>
+               </td>
+               </tr>
+                   <td> <DIV>
+                   <h2>INTRODUCCION</h2>
+                   <div align="center"><img src="imagenes/fondocss.png" width="200px" height="100px"></div>
+                   <p>CSS es el acrónimo de Cascading Style Sheets, o lo que sería en español Hojas de Estilo en Cascada. Es un lenguaje que sirve para especificar el estilo o aspecto de las páginas web. CSS se define en base a un estándar publicado por una organización llamada W3C, que también se encarga de estandarizar el propio lenguaje HTML. En este artículo comenzamos el Manual de CSS y entramos en materia con los antecedentes de CSS, las razones por las que se han desarrollado las hojas de estilo en cascada, y los objetivos que trata de cumplir. 
+                   </p>      
+               </DIV>
+             </td><!--Seleccion--> 
+    </table>
+           <table>
+           <tr>
+            <td><div> 
+                <h3> HISTORIA DE CSS</h3>
+                <div align="center"><img src="imagenes/historia.png" width="350px" height="200px"></div>
+                <P>Las hojas de estilos aparecieron poco después que el lenguaje de etiquetas SGML, alrededor del año 1970. Desde la creación de SGML, se observó la necesidad de definir un mecanismo que permitiera aplicar de forma consistente diferentes estilos a los documentos electrónicos</P>
+            </div></td>  
+           </tr>   
+                <tr>
+                    <td><div> 
+                        <h4> ¡QUE ES CSS!</h4>
+                        <div align="center"><img src="imagenes/bn.jpg" width="500px" height="300px"></div>
+                        <P>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML o XML (incluyendo varios languages basados en XML como SVG, MathML o XHTML). CSS describe como debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.
+
+                            CSS es uno de los lenguajes base de la Open Web y posee una especificación estandarizada por parte del W3C. Anteriormente , el desarrollo de varias partes de las especificaciones de CSS era realizado de manera sincrónica, lo que permiía el versionado de las recomendaciones. Probablemente habrás escuchado acerca de CSS1, CSS2.1, CSS3. Sin embargo, CSS4 nunca se ha lanzado como una versión oficial.
+                            
+                            Desde CSS3, el alcance de las especificaciones se incrementó de forma significativa y el progreso de los diferentes modulos de CSS comenzó a mostrar varias diferencias, lo que hizo más efectivo desarrollar y publicar recomendaciones separadas por módulos. En vez de versionar las especificaciones de CSS, la W3C actualmente realiza una captura de las ultimas espcificaciones estables de CSS.</P>
+                    </div></td>    
+                </tr>
+                <tr>
+                    <td><div> 
+                        <h4>Soporte de CSS en los navegadores</h4>
+                        <div align="center"><img src="imagenes/codigo-css.jpg" width="500px" height="320px"></div>
+                        <P>El trabajo del diseñador web siempre está limitado por las posibilidades de los navegadores que utilizan los usuarios para acceder a sus páginas. Por este motivo es imprescindible conocer el soporte de CSS en cada uno de los navegadores más utilizados del mercado.
+
+                            Internamente los navegadores están divididos en varios componentes. La parte del navegador que se encarga de interpretar el código HTML y CSS para mostrar las páginas se denomina motor. Desde el punto de vista del diseñador CSS, la versión de un motor es mucho más importante que la versión del propio navegador. </P>
+                    </div></td>  
+                </tr>
+                <tr>
+                    <td><div> 
+                        <h4>Especificación oficial</h4>
+                        <div align="center"><img src="imagenes/css-as-authored.png" width="500px" height="320px"></div>
+                        <p>La especificación o norma oficial que se utiliza actualmente para diseñar páginas web con CSS es la versión CSS 2.1, actualizada por última vez el 7 de junio de 2011 y que se puede consultar libremente en w3.org/TR/CSS21
+
+                            Desde hace varios años, el organismo W3C trabaja en la elaboración de la próxima versión de CSS, conocida como CSS 3. Esta nueva versión incluye multitud de cambios importantes en todos los niveles y es mucho más avanzada y compleja que CSS 2. Puedes consultar el estado actual de cada componente de CSS 3 en w3.org/Style/CSS/current-work. También existe un blog oficial en el que se publican todas las novedades relacionadas con el estándar CSS.</p>
+                </tr>
+    </table>
+    <table>
+        <tr>
+            <td><div>
+                <h5>Funcionamiento básico de CSS</h5>
+                <div align="center"><img src="imagenes/css-overview.png" width="500px" height="320px"></div>
+                <p>Antes de que se generalizara el uso de CSS, los diseñadores de páginas web utilizaban etiquetas HTML especiales para modificar el aspecto de los elementos de la página. El siguiente ejemplo muestra una página HTML con estilos definidos sin utilizar CSS:
+
+
+                    !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+                    html xmlns="http://www.w3.org/1999/xhtml">
+                    head>
+                      meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+                      title>Ejemplo de estilos sin CSStitle>
+                /head>
+                    
+                    body>
+                      h1>font col  face="Arial" size="5">Titular de la página</font>/h1>
+                      p>font color="gray" face="Verdana" size="2">Un párrafo de texto no muy largo.</font>/p>
+                    body>
+                /html>El ejemplo anterior utiliza la etiqueta <font> con sus atributos color, face y size para definir el color, el tipo y el tamaño de letra de cada elemento de la página.
+                    
+                    El problema de utilizar este método para definir el aspecto de los elementos se puede ver claramente con el siguiente ejemplo: si la página tuviera 50 elementos diferentes, habría que insertar 50 etiquetas <font>. Si el sitio web entero se compone de 10.000 páginas diferentes, habría que definir 500.000 etiquetas <font>. Como cada etiqueta <font> tiene tres atributos, habría que definir 1.5 millones de atributos.
+                    
+                    Como el diseño de los sitios web está en constante evolución, es habitual modificar cada cierto tiempo el aspecto de las páginas del sitio. Siguiendo con el ejemplo anterior, cambiar el aspecto del sitio requeriría modificar 500.000 etiquetas y 1.5 millones de atributos.
+                    
+                    La solución que propone CSS es mucho mejor, como se puede ver en el siguiente ejemplo:<br>
+   
+                     !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"<br>
+                     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><br>
+                    html xmlns="http://www.w3.org/1999/xhtml"><br>
+                    head>
+                    meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /><br>
+                    title>Ejemplo de estilos con CSS /title><br>
+                    style type="text/css"><br>
+                      h1 { color: red;  font-family: Arial;   font-size: large;  }<br>
+                      p  { color: gray; font-family: Verdana; font-size: medium; }<br>
+                    /style><br>
+                    /head><br>
+                    
+                    body><br>
+                    h1>Titular de la página/h1<br>
+                   p>Un párrafo de texto no muy largo./p><br>
+                    /body><br>
+                    /html><br>
+                    CSS permite separar los contenidos de la página y la información sobre su aspecto. En el ejemplo anterior, dentro de la propia página HTML se crea una zona especial en la que se incluye toda la información relacionada con los estilos de la página.<br>
+                    o CSS, se pueden establecer los mismos estilos con menos esfuerzo y sin ensuciar el código HTML de los contenidos con etiquetas <font>. Como se verá más adelante, la etiqueta<br>
+                    CSS permite separar los contenidos de la página y la información sobre su aspecto. En el ejemplo anterior, dentro de la propia página HTMLse crea una zona especial en la que se incluye toda la información relacionada con los estilos de la página.<br>
+                    
+                    Utilizando CSS, se pueden establecer los mismos estilos con menos esfuerzo y sin ensuciar el código HML de los contenidos con etiquetasfont Como se verá más adelante, la etiquetatyle> crea una zona especial donde se incluyen todas las reglas CSS que se aplican en la página.<br>
+                    
+                    En el ejemplo anterior, dentro de la zona de CSS se indica que todas las etiquetas h1de la página se deben ver de color rojo, con un tipo de letra Arial y con un tamaño de letra grande. Además, las etiquetas de la página se deben ver de color gris, con un tipo de letra Verdana y con un tamaño de letra medio.<br>
+                    
+                    Definir los estilos de esta forma ahorra miles de etiquetas y millones de atributos respecto ala solución anterior, pero sigue sin ser una solución ideal. Como los estilos CSS sólo se aplican en la página que los incluye, si queremos que las 10. páginas diferentes del sitio tengan el mismo aspecto, se deberían copiar 10.000 veces esas mismas reglas CSS. Más adelante se explica la solución que propone CSS para evitar este problema</p>
+            </div></td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <h6>Estándar CSS</h6>
+                    <div align="center"><img src="imagenes/css-elements-inspect-me.msft.png" width="500px" height="320px"></div>
+                    <p> <br>El W3C define las especificaciones del estándar CSS. Después, los navegadores intentan implementar esas especificaciones, para que las páginas web se vean igual en todos ellos.
+
+                        Los navegadores cada vez cumplen más y mejor el estándar CSS. Por ejemplo: Internet Explorer 6 cumplía el estándar en sólo un 12% mientras que Internet Explorer 9 lo cumple en un 95%. Por eso se deben maquetar las páginas web siguiendo el estándar CSS y no las especificaciones de un navegador determinado. También hay que procurar mantener actualizado el navegador, ya que a medida que van cumpliendo el estándar, van añadiendo funcionalidades que antes no tenían. </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
